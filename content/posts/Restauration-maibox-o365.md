@@ -1,5 +1,5 @@
 ---
-title: "Restaurer une mailbox !"
+title: "Restaurer une mailbox"
 date: 2023-06-02T13:10:12+02:00
 # à tester :
 tags: ["powershell", "o365"]
