@@ -13,11 +13,13 @@ la cmdlet ExchangeOnlineManagement installée sur votre machine
 
 Lancer en powershell admin :  
 
+```
 Install-Module PowershellGet -Force  
 Update-Module PowershellGet  
 Install-Module -Name ExchangeOnlineManagement  
-Connexion à ExchangeOnlineManagement  
+```
 
+Connexion à ExchangeOnlineManagement  
 En powershell admin :   
 
 Connect-ExchangeOnline -UserPrincipalName adm365-xxxxxxx@*.onmicrosoft.com  
