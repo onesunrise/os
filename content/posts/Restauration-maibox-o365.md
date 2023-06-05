@@ -29,7 +29,7 @@ Connect-ExchangeOnline -UserPrincipalName adm365-xxxxxxx@*.onmicrosoft.com
 Identifier le GUID de la mailbox supprimée 
 Si vous avez l'ID :  
 ```
-get-mailbox -SoftDeletedMailbox | where-Object {_.Alias -eq "ID"}  
+get-mailbox -SoftDeletedMailbox | where-Object {$_.Alias -eq "ID"}  
 ```
 et pour avoir le GUID  
 
