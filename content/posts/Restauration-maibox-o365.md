@@ -5,9 +5,11 @@ date: 2023-06-02T13:10:12+02:00
 tags: ["powershell", "o365"]
 ---
 Restaurer une mailbox o365 (sous un autre nom) et l'affecter à un utilisateur.  
+
 Prérequis : Compte Admin office 365 avec Role Exchange Online Administrator  
 la cmdlet ExchangeOnlineManagement installée sur votre machine  
 Lancer en powershell admin :  
+
 Install-Module PowershellGet -Force  
 Update-Module PowershellGet  
 Install-Module -Name ExchangeOnlineManagement  
