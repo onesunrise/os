@@ -11,16 +11,23 @@ tags: ["tech","AD","Powershell"]
 - Suppression AD group et computer  
 
 Chercher ds l AD et trouver le groupe en question :  
+```
 get-adgroup -filter {name -like "*Name_Server*"}
+```
 
 Puis le supprimer :  
+```
 get-adgroup -filter {name -like "* Name_Server *"} | Remove-ADGroup  
+```
 
 Pour trouver le serveur en question :  
+```
 Get-ADComputer -filter {name -like "* Name_Server *"}
-
+```
 Puis le supprimer :  
+```
 Get-ADComputer -filter {name -like "* Name_Server *"} | Remove-ADComputer  
+```
 
 - Suppression du DNS  
 
